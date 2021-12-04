@@ -85,13 +85,99 @@
                                     </svg>
                                 </button>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Porro illo maiores
-                                necessitatibus, officia officiis omnis soluta
-                                enim neque harum similique atque provident nemo
-                                eum vero aspernatur veniam cum ipsam. Sequi?
-                            </p>
+                            <div class="modal-content">
+                                <h2 class="modal-title">
+                                    Оставьте свои данные, мы вам перезвоним
+                                </h2>
+                                <form class="form" autocomplete="off">
+                                    <label class="form-field">
+                                        <input
+                                            type="text"
+                                            class="form-input"
+                                            name="name"
+                                            placeholder=" "
+                                        />
+                                        <span class="form-label">Имя</span>
+                                        <svg
+                                            class="form-icon"
+                                            width="12"
+                                            height="12"
+                                        >
+                                            <use
+                                                href="img/symbols.svg#login-icon"
+                                            ></use>
+                                        </svg>
+                                    </label>
+                                    <label class="form-field">
+                                        <input
+                                            type="tel"
+                                            class="form-input"
+                                            name="phone"
+                                            placeholder=" "
+                                        />
+                                        <span class="form-label">Телефон</span>
+                                        <svg
+                                            class="form-icon"
+                                            width="14"
+                                            height="14"
+                                        >
+                                            <use
+                                                href="img/symbols.svg#phonef-icon"
+                                            ></use>
+                                        </svg>
+                                    </label>
+                                    <label class="form-field">
+                                        <input
+                                            type="mail"
+                                            class="form-input"
+                                            name="mail"
+                                            placeholder=" "
+                                        />
+                                        <span class="form-label">Почта</span>
+                                        <svg
+                                            class="form-icon"
+                                            width="15"
+                                            height="12"
+                                        >
+                                            <use
+                                                href="img/symbols.svg#mailf-icon"
+                                            ></use>
+                                        </svg>
+                                    </label>
+                                    <label for="comment">
+                                        <span class="comment-label"
+                                            >Комментарий</span
+                                        >
+                                        <textarea
+                                            class="comment-text"
+                                            name="comment"
+                                            placeholder="Введите текст"
+                                        >
+                                        </textarea>
+                                    </label>
+                                    <label class="checkbox-field">
+                                        <input
+                                            type="checkbox"
+                                            class="checkbox"
+                                            name="checkbox"
+                                            placeholder=" "
+                                        />
+                                        <span class="checkbox-icon"> </span>
+                                        <span class="checkbox-text"
+                                            >Соглашаюсь с рассылкой и принимаю
+                                            <a class="contract" href=""
+                                                >Условия договора</a
+                                            ></span
+                                        >
+                                    </label>
+                                    <button
+                                        class="button form-button"
+                                        type="submit"
+                                    >
+                                        Отправить
+                                    </button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -522,6 +608,31 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="footer-form-container">
+                    <form class="footer-form" autocomplete="off">
+                        <label class="footer-form-field">
+                            <span class="footer-form-label"
+                                >Подпишитесь на рассылку</span
+                            >
+                            <input
+                                type="mail"
+                                class="footer-form-input"
+                                name="mail"
+                                placeholder="Email"
+                            />
+                        </label>
+                        <button class="button footer-button">
+                            <svg
+                                class="footer-form-icon"
+                                width="24"
+                                height="24"
+                            >
+                                <use href="img/symbols.svg#sent-icon"></use>
+                            </svg>
+                            Подписаться
+                        </button>
+                    </form>
                 </div>
             </div>
         </footer>
