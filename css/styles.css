@@ -321,6 +321,7 @@ body {
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
+    outline: none;
 }
 .comment-label {
     display: inline-flex;
@@ -361,10 +362,9 @@ body {
 .checkbox-icon {
     width: 15px;
     height: 15px;
-    border: solid 2px;
-    border-radius: 2px;
 }
 .checkbox:checked + .checkbox-icon {
+    fill: var(--minor-text-color);
     background-image: url('../img/icon-check.svg');
     background-size: contain;
     background-origin: border-box;
